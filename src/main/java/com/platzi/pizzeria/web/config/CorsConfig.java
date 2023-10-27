@@ -24,7 +24,7 @@ public class CorsConfig {
         corsConfiguration.setAllowedHeaders(Arrays.asList("*"));
         //
         UrlBasedCorsConfigurationSource source=new UrlBasedCorsConfigurationSource();
-        //INDICA A SOURCE QUE SE VA A CONGIFURAR LOS CORS PARA  EL PROYECTO(/**) Y TAMBIEN SE INDICA
+        //INDICA A SOURCE QUE SE VA A CONGIFURAR LOS CORS PARA // EL PROYECTO(/**) Y TAMBIEN SE INDICA
         //CUAL ES LA CONFIGURACION
         source.registerCorsConfiguration("/**",corsConfiguration);
 
