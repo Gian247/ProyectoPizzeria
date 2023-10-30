@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class PlatziPizzeriaApplication {
 
 
-	//CLASE PRINCIPAL
+	
 	//CLASE PRINCIPAL
 	public static void main(String[] args) {
 		SpringApplication.run(PlatziPizzeriaApplication.class, args);

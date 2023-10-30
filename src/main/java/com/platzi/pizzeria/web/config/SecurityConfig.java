@@ -69,6 +69,14 @@ public class SecurityConfig {
 
      */
 
+
+
+    /*
+
+    AL USAR NUESTRO PROPIO USERDETAILSSERVICE NO ES NECESARIO IMPLEMENTARLO
+    COMO UNA CONFIGURACION YA QUE SRING
+     */
+
     //ENCODER OBLIGATORIO POR EL CUAL TIENE QUE PASAR LA CONTRASEÑA
     @Bean
     public PasswordEncoder passwordEncoder(){
